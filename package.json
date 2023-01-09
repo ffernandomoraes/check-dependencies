@@ -13,6 +13,8 @@
   },
   "license": "ISC",
   "dependencies": {
+    "cli-table": "^0.3.11",
+    "request": "^2.88.2",
     "semver": "^7.3.8"
   }
 }
