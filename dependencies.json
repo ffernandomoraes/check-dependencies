@@ -1,0 +1,34 @@
+{
+  "front": {
+    "critical": {
+      "@material-ui/core": "Migre para @mui (v5)",
+      "@material-ui/styles": "Migre para @mui (v5)",
+      "@material-ui/lab": "Migre para @mui (v5)",
+      "@material-ui/pickers": "Migre para @mui (v5)",
+      "@react-form-fields/material-ui": "Dependência descontinuada, migre para react-hook-form, antd ou @eduzz/houston-forms",
+
+      "@eduzz/houston-icons": "Dependência descontinuada, remova do projeto",
+      "@eduzz/houston-styles": "Dependência descontinuada, remova do projeto",
+
+      "moment": "Migre para date-fns",
+      "formik": "Migre para react-hook-form, antd ou @eduzz/houston-forms"
+    },
+
+    "libraries": {
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+
+      "@eduzz/houston-ui": "1.0.0",
+      "@eduzz/houston-forms": "1.0.0",
+      "@eduzz/eslint-config-houston": "1.0.0",
+      "@eduzz/houston-hooks": "1.0.0",
+
+      "antd": "5.0.0",
+      "axios": "1.0.0",
+      "date-fns": "2.0.0",
+      "@eduzz/apps-toolbar": "5.0.0"
+    }
+  },
+
+  "back": {}
+}
